@@ -1,0 +1,70 @@
+#maze{
+    background-image: url(slike/labj.png);
+    background-size: cover; 
+    width:30em;
+    height:30em;
+    margin:auto;
+    position:relative;
+    zoom:1.5;
+}
+#char{
+    width:0.6em;
+    height:0.6em;
+    background-image:url(slike/soldierL.png);
+    background-size: cover;
+    z-index:2;
+    position:absolute;
+    left:14.2em;
+    top:0.2em;
+}
+html{
+    height:100%;
+    background-image: url(slike/jungle.jpg);
+    background-size: cover;
+}
+#tit{
+    font-size: 2em;
+    width: 100%;
+    height: 1.2em;
+    text-align: center;
+    background-color: #536148;
+    color: #2e2101;
+    font-family: chingChong;
+    padding-top: 0.1em;
+}
+ul {
+    border-top: 0.5em solid #243113;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #536148;
+    margin-bottom: 0.3em;
+  }
+li{
+    display: inline;
+    padding: 0.1em 0em;
+}
+li :hover {
+    background-color: #81a30e;
+  }
+  a{
+      font-size: 1.5em;
+      padding: 0em 1em;
+      color:#2e2101;
+      font-family: chingChong;
+	  cursor: default;
+  }
+@font-face {
+  font-family: chingChong;
+  src: url(font/china.ttf);
+}
+#choppa{
+    background-image: url(slike/choppa.gif);
+    width:15em;
+    height: 8em;
+    background-size: cover;
+    z-index: 100;
+    left: -16em;
+    position: relative;
+    top: -5em;
+}
